@@ -56,12 +56,12 @@ body {
 }
 
 .topbar {
-	position: fixed;
+	position: fixed; /*berfungsi untuk membuat top bar yang ketika di scroll maka akan tetap mengikuti arah scroll*/
 	top: 0;
 	left: 0;
 	right: 0;
 	height: 80px;
-	background-color: #93afaf;
+	background-color: rgb(180, 149, 149);
 	border-bottom: 3px solid black;
 	z-index: 999;
 }
@@ -79,7 +79,7 @@ body {
 	width: 700px;
 	margin: auto;
 	margin-top: 80px;
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	border-left: 3px solid black;
 	border-right: 3px solid black;
 }
@@ -90,7 +90,7 @@ body {
 .header {
 	padding: 20px;
 	padding-bottom: 5px;
-	background-color: lightgrey;
+	background-color: rgb(219, 191, 191);
 	height: 120px;
 }
 
